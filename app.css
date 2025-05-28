@@ -1,0 +1,106 @@
+
+@font-face {
+    font-family: "Vazirmatn-Medium";
+    src: url(./fonts/ttf/Vazirmatn-Medium.ttf) format("truetype"),
+     url(./fonts/woff2/Vazirmatn-Medium.woff2) format("woff2");
+     font-family: "Nian-Black";
+     src: url(./fonts/woff2/Nian-Black.woff) format(woff2);
+
+}
+:root{
+    --color:#baf2fc;
+}
+.font {
+    font-family: "Nian-Black" ;
+}
+.nav1{
+background-image: linear-gradient(to left,#29B6F6 , #80DEEA);
+border-radius:6px 6px 0px 0px;
+}
+.body{
+    background-color:#defcff;
+}
+.namenav{
+    color:#fff;
+}
+.title1{
+    background-color:var(--color);
+}
+.type1{
+    border-radius:6px;
+    background-color:#BBDEFB;
+    border: solid #039BE5 1.5px;
+    font-family:"Nian-Black";
+}
+.type2{
+    border-radius:6px;
+    background-color:#BBDEFB;
+    border: solid #039BE5 1.5px;
+}
+.type1:active{
+    background-color:#1E88E5;
+}
+.type2:active{
+    background-color:#1E88E5;
+}
+.santy{
+    font-size:70px;
+    color:#07b0ffec;
+}
+.santy1{
+    font-size:70px;
+    color:#07b0ffec;
+}
+.list1{
+    color: #07b0ffec;
+}
+.hour1{
+    margin-top:-60px;
+}
+.font1{
+    font-size:21px;
+}
+.font2{
+    font-size: 21px;
+}
+.foother{
+    background-color: #baf2fc;
+}
+.foother1{
+    margin-left: 15px;
+    margin-right: 20px;
+    word-spacing: 5px;
+}
+.foother2{
+    margin-top: -17px;
+}
+@media (max-width: 564px) {
+    .font2 {
+      display: none;
+    }
+  }
+  @media (max-width: 564px) {
+    .santy {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 564px) {
+    .santy1 {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 564px) {
+    .icontitle {
+        display: none;   
+     }
+    }
+    @media (max-width: 564px) {
+        .display1{
+            display: none;   
+         }
+        }
+        @media (min-width: 564px) {
+            .icontitl{
+                display:none;   
+             }
+            }
